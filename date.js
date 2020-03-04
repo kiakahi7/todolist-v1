@@ -12,10 +12,10 @@ function getDate() {
     let options = {
         weekday: "long",
         day: "numeric",
-        month: "long",
+        month: "numeric",
         year: "numeric"
     };
     
     // set variable day to use the options to display the day
     return today.toLocaleDateString("en-US", options);
-}
+};
